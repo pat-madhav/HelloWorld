@@ -12,8 +12,9 @@ my_dict = {'k1':'some data', '7':'other data'}
 my_dict['7'] = "NEW VALUE"
 print(my_dict)
 
-people_weight_dict = {'john':250, 'pattu':160, 'DP':120}
+people_weight_dict = {'john': 250, 'pattu': 160, 'DP': 120}
 print(people_weight_dict['pattu'])
+
 people_weight_dict['pattu'] = 150
 print(people_weight_dict['pattu'])
 
