@@ -21,9 +21,8 @@ try:
         os.makedirs('my_folder/sub_folder/ding-dong')
 
     # remove dirs
-    os.rmdir('my_folder/sub_folder/ding-dong')
-    # os.rmdir('my_folder/sub_folder')
-    # os.rmdir('my_folder')
+    # os.rmdir('my_folder/sub_folder/ding-dong')
+    os.removedirs('my_folder/sub_folder/ding-dong')
     print('Folders created')
 except IOError as e:
     print('Error details are:\n'
@@ -42,4 +41,5 @@ with open('/Users/pattabhimadhavaram/Desktop/my_folder/sub_folder/my_file.txt', 
 
 #
 os.remove('/Users/pattabhimadhavaram/Desktop/my_folder/sub_folder/my_file.txt')
+os.rename('my_file.txt', 'renamed.txt')
 
